@@ -17118,6 +17118,11 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="-27.94" y1="71.12" x2="-17.78" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-27.94" y="71.12"/>
 </segment>
+<segment>
+<wire x1="15.24" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<label x="15.24" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="VSEG" class="0">
 <segment>
@@ -17243,11 +17248,6 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="SV2" gate="G$1" pin="8"/>
 <wire x1="27.94" y1="121.92" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
 <label x="27.94" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="22.86" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<label x="22.86" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DAT" class="0">
