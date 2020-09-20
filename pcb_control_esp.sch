@@ -16853,9 +16853,9 @@ Grid 5.00 mm&lt;p&gt;
 <label x="182.88" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-50.8" y1="73.66" x2="-48.26" y2="73.66" width="0.1524" layer="91"/>
-<label x="-48.26" y="73.66" size="1.778" layer="95" xref="yes"/>
-<pinref part="SJR1" gate="G$1" pin="GPIO4"/>
+<wire x1="-50.8" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
+<label x="-35.56" y="76.2" size="1.778" layer="95" xref="yes"/>
+<pinref part="SJR1" gate="G$1" pin="GPIO5"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -16874,9 +16874,9 @@ Grid 5.00 mm&lt;p&gt;
 <label x="190.5" y="12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-50.8" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="SJR1" gate="G$1" pin="GPIO5"/>
-<label x="-35.56" y="76.2" size="1.778" layer="95" xref="yes"/>
+<label x="-35.56" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="SJR1" gate="G$1" pin="GPIO4"/>
+<wire x1="-35.56" y1="73.66" x2="-50.8" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT/SQW" class="0">
